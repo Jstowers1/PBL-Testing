@@ -11,28 +11,40 @@ y2=int(y2)
 # Variables cast into integers
 mY=int(y2-y1)
 mX=int(x2-x1)
-m=int(mY/mX)
+m2=int(mY/mX)
 if(x1<1):
-  b=int(y1-(x1*m))
+  b=int(y1-(x1*m2))
+  b=str(b)
+  print("b ="+ " "+ b)
+  b=int(b)
 elif(x1>1):
-  b=int((x1*m)-y1)
+  b=int(((x1+1)*m2)+_y1)
+  b=str(b)
+  print("b ="+ " "+ b)
+  b=int(b)
 else:
-  b=int((m*x1)-y1)
+  b=int((m2*x1)-y1)
+  b=str(b)
+  print("b ="+ " "+ b)
+  b=int(b)
 # y=mx+b
 #B Inverter
 if(b>0):
-  b=int(b*-1)
-  m=str(m)
-elif(b<0):
   b=int(b*1)
-  m=str(m)
+  mY=str(mY)
+  mX=str(mX)
+elif(b<0):
+  b=int(b*-1)
+  mY=str(mY)
+  mX=str(mX)
 else:
   b=int(0)
-  m=str(m)
+mY=str(mY)
+mX=str(mX)
 if(b<0):
   b=str(b)
-  print("y ="+" "+ m + "x " +  b )
+  print("y ="+" "+mY +"/"+mX+ "x " +  b )
 else:
   b=str(b)
-  print("y ="+" "+ m + "x" + " + " + b )
+  print("y ="+" "+mY +"/"+mX+ "x" + " + " + b )
   
