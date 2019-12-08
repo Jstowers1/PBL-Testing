@@ -21,6 +21,8 @@ else:
 # y=mx+b
 if(b>0):
   b=int(b*-1)
+else:
+  b=int(b*-1)
 
 mY=str(mY)
 mX=str(mX)
