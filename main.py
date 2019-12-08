@@ -19,9 +19,10 @@ elif(x1>1):
 else:
   b=int(((m2*x1)-y1)*-1)
 # y=mx+b
+#B Inverter
 if(b>0):
   b=int(b*-1)
-else:
+elif(b<0):
   b=int(b*-1)
 
 mY=str(mY)
