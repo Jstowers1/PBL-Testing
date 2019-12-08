@@ -23,10 +23,10 @@ mY=str(mY)
 mX=str(mX)
 if(b<0):
   b=str(b)
-  print("y ="+" "+mX +"/"+mY+ "x " +  b )
+  print("y ="+" "+mY +"/"+mX+ "x " +  b )
 else:
   b=str(b)
-  print("y ="+" "+mX +"/"+mY+ "x" + " + " + b )  
+  print("y ="+" "+mY +"/"+mX+ "x" + " + " + b )  
   #3=2/4x + B
   #*2
   #6=b
