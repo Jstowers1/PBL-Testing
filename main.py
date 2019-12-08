@@ -22,19 +22,17 @@ else:
 #B Inverter
 if(b>0):
   b=int(b*-1)
-  mY=str(mY)
-  mX=str(mX)
+  m=str(m)
 elif(b<0):
   b=int(b*1)
-  mY=str(mY)
-  mX=str(mX)
+  m=str(m)
 else:
   b=int(0)
-mY=str(mY)
-mX=str(mX)
+  m=str(m)
 if(b<0):
   b=str(b)
-  print("y ="+" "+mY +"/"+mX+ "x " +  b )
+  print("y ="+" "+ m + "x " +  b )
 else:
   b=str(b)
-  print("y ="+" "+mY +"/"+mX+ "x" + " + " + b )
+  print("y ="+" "+ m + "x" + " + " + b )
+  
