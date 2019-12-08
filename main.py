@@ -15,15 +15,19 @@ m2=int(mY/mX)
 if(x1<1):
   b=int(y1-(x1*m2))
 elif(x1>1):
-  b=int(((x1*m2)-y1)*-1)
+  b=int((x1*m2)-y1)
 else:
-  b=int(((m2*x1)-y1)*-1)
+  b=int((m2*x1)-y1)
 # y=mx+b
 #B Inverter
 if(b>0):
   b=int(b*-1)
+  mY=str(mY)
+  mX=str(mX)
 elif(b<0):
-  b=int(b*1)
+  b=int(b*-1)
+  mY=str(mY)
+  mX=str(mX)
 else:
   b=int(0)
 mY=str(mY)
