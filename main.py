@@ -19,9 +19,8 @@ elif(x1>1):
 else:
   b=int(((m2*x1)-y1)*-1)
 # y=mx+b
-if(b<0):
+if(b>0):
   b=int(b*-1)
-
 
 mY=str(mY)
 mX=str(mX)
