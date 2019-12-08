@@ -25,7 +25,7 @@ if(b>0):
   mY=str(mY)
   mX=str(mX)
 elif(b<0):
-  b=int(b*-1)
+  b=int(b*1)
   mY=str(mY)
   mX=str(mX)
 else:
