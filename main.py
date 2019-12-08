@@ -17,7 +17,7 @@ if(x1<1):
 elif(x1>1):
   b=int((x1*m2)-y1)
 else:
-  b=int(m2*x1-y1)
+  b=int(m2*x1+y1)
 # y=mx+b
 mY=str(mY)
 mX=str(mX)
