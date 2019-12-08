@@ -23,8 +23,9 @@ else:
 if(b>0):
   b=int(b*-1)
 elif(b<0):
-  b=int(b*-1)
-
+  b=int(b*1)
+else:
+  b=int(0)
 mY=str(mY)
 mX=str(mX)
 if(b<0):
