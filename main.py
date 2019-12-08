@@ -15,10 +15,14 @@ m2=int(mY/mX)
 if(x1<1):
   b=int(y1-(x1*m2))
 elif(x1>1):
-  b=int(((x1*m2)-y)*-1)
+  b=int(((x1*m2)-y1)*-1)
 else:
   b=int(((m2*x1)-y1)*-1)
 # y=mx+b
+if(b<0):
+  b=int(b*-1)
+
+
 mY=str(mY)
 mX=str(mX)
 if(b<0):
