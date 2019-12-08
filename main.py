@@ -15,7 +15,7 @@ m2=int(mY/mX)
 if(x1<1):
   b=int(y1-(x1*m2))
 elif(x1>1):
-  b=int(x1*m2-y1)
+  b=int((x1*m2)-y1)
 else:
   b=int(m2*x1-y1)
 # y=mx+b
