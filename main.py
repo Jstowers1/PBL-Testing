@@ -13,24 +13,24 @@ mY=int(y2-y1)
 mX=int(x2-x1)
 m2=int(mY/mX)
 if(x1<1):
-  b=int(1 * (m2) * (x2) + y2)
+  b=int(y1-(x1*m2))
   b=str(b)
   print("b ="+ " "+ b)
   b=int(b)
 elif(x1>1):
-  b=int(1 * (m2) * (x2) + y2)
+  b=int(((x1+1)*m2)+y1)
   b=str(b)
   print("b ="+ " "+ b)
   b=int(b)
 else:
-  b=int(1 * (m2) * (x2) + y2)
+  b=int((m2*x1)-y1)
   b=str(b)
   print("b ="+ " "+ b)
   b=int(b)
 # y=mx+b
 #B Inverter
 if(b>0):
-  b=int(b*1)
+  b=int(b*-1)
   mY=str(mY)
   mX=str(mX)
 elif(b<0):
@@ -47,3 +47,4 @@ if(b<0):
 else:
   b=str(b)
   print("y ="+" "+mY +"/"+mX+ "x" + " + " + b )
+  
