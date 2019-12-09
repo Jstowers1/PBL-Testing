@@ -11,19 +11,19 @@ y2=int(y2)
 # Variables cast into integers
 mY=int(y2-y1)
 mX=int(x2-x1)
-m2=int(mY/mX)
+m=int(mY/mX)
 if(x1<1):
   b=int(y1-(x1*m2))
   b=str(b)
   print("b ="+ " "+ b)
   b=int(b)
 elif(x1>1):
-  b=int(((x1+1)*m2)+y1)
+  b=int(Intercept = -1 * (m) * (X2) + Y2)
   b=str(b)
   print("b ="+ " "+ b)
   b=int(b)
 else:
-  b=int((m2*x1)-y1)
+  b=int(Intercept = -1 * (m) * (X2) + Y2)
   b=str(b)
   print("b ="+ " "+ b)
   b=int(b)
