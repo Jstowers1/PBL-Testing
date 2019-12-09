@@ -10,9 +10,17 @@ m=int(mY/mX)
 b=int(m*(-1)*x2+y2)
 print(b)
 #B Inverter
-b==int
-mY=str(mY)
-mX=str(mX)
+if(x2>0):
+  b=int(b*1)
+  mY=str(mY)
+  mX=str(mX)
+elif(x2<0):
+  b=int(b*1)
+  mY=str(mY)
+  mX=str(mX)
+else:
+  mY=str(mY)
+  mX=str(mX)
 if(b<0):
  b=str(b)
  print("y ="+" "+mY +"/"+mX+ "x " +  b )
