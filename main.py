@@ -4,14 +4,12 @@ x2=int(input("What is the second X value "))
 y1=int(input("What is the first Y value? "))
 y2=int(input("What is the second Y value? "))
 # Inputs are needed so the user can put in any numbers they want
-m=(y2-y1)/(x2-x1)
-
-
-
-
-if(b<0):
- b=str(b)
- print("y ="+" "+mY +"/"+mX+ "x " +  b )
-else:
-  b=str(b)
-  print("y ="+" "+mY +"/"+mX+ "x" + " + " + b )
+m=int(y2-y1)/(x2-x1)
+mY=(y2-y1)
+mX=(x2-x1)
+mY=str(mY)
+mX=str(mX)
+b=(-1*(m)*(x2)+y2)
+b=str(b)
+print(b)
+print(m)
