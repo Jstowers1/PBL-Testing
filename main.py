@@ -18,12 +18,12 @@ if(x1<1):
   print("b ="+ " "+ b)
   b=int(b)
 elif(x1>1):
-  b=int(Intercept = -1 * (m) * (X2) + Y2)
+  b=int(Intercept = -1 * (m) * (x2) + y2)
   b=str(b)
   print("b ="+ " "+ b)
   b=int(b)
 else:
-  b=int(Intercept = -1 * (m) * (X2) + Y2)
+  b=int(Intercept = -1 * (m) * (x2) + y2)
   b=str(b)
   print("b ="+ " "+ b)
   b=int(b)
