@@ -24,7 +24,7 @@ mY=str(mY)
 mX=str(mX)
 if(b<0):
  b=str(b)
-print("y ="+" "+mY +"/"+mX+ "x " +  b )
+ print("y ="+" "+mY +"/"+mX+ "x " +  b )
 else:
   b=str(b)
   print("y ="+" "+mY +"/"+mX+ "x" + " + " + b )
