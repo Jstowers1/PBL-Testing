@@ -7,19 +7,10 @@ y2=int(input("What is the second Y value? "))
 mY=int(y2-y1)
 mX=int(x2-x1)
 m=int(mY/mX)
-b=int(m*(-1)*x1+y1)
+b=int(m*(-1)*x2+y2)
 print(b)
 #B Inverter
-if(b>0):
-  b=int(b*1)
-  mY=str(mY)
-  mX=str(mX)
-elif(b<0):
-  b=int(b*-1)
-  mY=str(mY)
-  mX=str(mX)
-else:
-  b=int(0)
+b==int
 mY=str(mY)
 mX=str(mX)
 if(b<0):
