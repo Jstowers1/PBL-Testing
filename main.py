@@ -9,23 +9,22 @@ mX=int(x2-x1)
 m=int(mY/mX)
 b=int(m*(-1)*x1+y1)
 print(b)
-# y=mx+b
 #B Inverter
-#if(b>0):
-  #b=int(b*1)
-  #mY=str(mY)
-  #mX=str(mX)
-#elif(b<0):
-  #b=int(b*-1)
-  #mY=str(mY)
-  #mX=str(mX)
-#else:
-  #b=int(0)
-#mY=str(mY)
-#mX=str(mX)
-#if(b<0):
-# b=str(b)
-#print("y ="+" "+mY +"/"+mX+ "x " +  b )
-#else:
- # b=str(b)
-  #print("y ="+" "+mY +"/"+mX+ "x" + " + " + b )
+if(b>0):
+  b=int(b*1)
+  mY=str(mY)
+  mX=str(mX)
+elif(b<0):
+  b=int(b*-1)
+  mY=str(mY)
+  mX=str(mX)
+else:
+  b=int(0)
+mY=str(mY)
+mX=str(mX)
+if(b<0):
+ b=str(b)
+print("y ="+" "+mY +"/"+mX+ "x " +  b )
+else:
+  b=str(b)
+  print("y ="+" "+mY +"/"+mX+ "x" + " + " + b )
