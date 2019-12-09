@@ -18,7 +18,7 @@ if(x1<0):
   print("b ="+ " "+ b)
   b=int(b)
 elif(x1>0):
-  b=int(((x1+1)*m2)+_y1)
+  b=int(((x1+1)*m2)+y1)
   b=str(b)
   print("b ="+ " "+ b)
   b=int(b)
